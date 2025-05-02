@@ -19,28 +19,8 @@ This project demonstrates a microservices architecture using Fastify as the web 
 - Comprehensive test suite
 - Health check endpoint
 ## Project Structure
-microservices-with-fastify/
-├── src/
-│   ├── kafka/
-│   │   ├── consumer.ts    # Kafka consumer implementation
-│   │   └── producer.ts    # Kafka producer implementation
-│   ├── models/
-│   │   └── post.ts        # Post model definition
-│   ├── routes/
-│   │   └── posts.ts       # API routes for posts
-│   ├── services/
-│   │   └── postService.ts # Business logic for posts
-│   ├── app.ts             # Fastify app configuration
-│   └── index.ts           # Application entry point
-├── tests/
-│   └── posts.test.ts      # API tests
-├── data/                  # Persistent data storage
-├── dist/                  # Compiled JavaScript output
-├── docker-compose.yml     # Docker Compose configuration
-├── Dockerfile             # Docker image definition
-├── package.json           # Project dependencies
-├── tsconfig.json          # TypeScript configuration
-└── README.md              # Project documentation
+![image](https://github.com/user-attachments/assets/98169e73-c13b-42a2-92eb-f38dc6405121)
+
 ## Prerequisites
 - Node.js 18 or higher
 - Docker and Docker Compose (for containerized deployment)
