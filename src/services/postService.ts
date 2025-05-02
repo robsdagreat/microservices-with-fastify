@@ -58,5 +58,11 @@ export const postService = {
     posts.push(post);
     savePosts();
     return post;
+  },
+  
+  clearAllPosts: (): void => {
+    // Clear all posts
+    posts = [];
+    savePosts();
   }
 };
