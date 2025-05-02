@@ -1,0 +1,16 @@
+[
+  {
+    "id": "704bf3d3-c0b8-4ff4-86dc-2825642878e7",
+    "title": "First post",
+    "content": "This is the 1 post to check",
+    "author": "Robs😁",
+    "createdAt": "2025-05-02T08:20:59.258Z"
+  },
+  {
+    "id": "56614bcb-3132-4f65-a0ab-6ba9c991a5b4",
+    "title": "Second post",
+    "content": "This is the 2 post to check",
+    "author": "Robs😁",
+    "createdAt": "2025-05-02T09:37:43.416Z"
+  }
+]
