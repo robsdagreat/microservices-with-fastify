@@ -50,7 +50,6 @@ export default async function (fastify: FastifyInstance): Promise<void> {
       const kafkaPromise = sendMessage('post_created', post);
       const timeoutPromise = new Promise((resolve) => {
         setTimeout(() => {
-          console.log('Kafka message send timed out, continuing with response');
           resolve(false);
         }, 3000);
       });
